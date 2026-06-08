@@ -1,0 +1,32 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    @apply bg-cream text-graphite font-body antialiased;
+    /* texto do corpo no mínimo 16px */
+    font-size: 16px;
+  }
+
+  /* offset para âncoras por causa do header fixo */
+  section[id] {
+    scroll-margin-top: 80px;
+  }
+}
+
+@layer utilities {
+  /* label em maiúsculas com letter-spacing amplo */
+  .label-eyebrow {
+    @apply font-body text-xs uppercase tracking-label text-nude;
+  }
+
+  /* padding lateral padrão (20px no mobile) */
+  .px-page {
+    @apply px-5 sm:px-8 lg:px-12;
+  }
+}
