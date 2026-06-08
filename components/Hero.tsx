@@ -27,7 +27,7 @@ export default function Hero() {
 
       <div className="mx-auto grid max-w-6xl grid-cols-1 items-center gap-10 px-page lg:grid-cols-12 lg:gap-8">
         {/* texto */}
-        <div className="lg:col-span-7">
+        <div className="order-2 lg:order-1 lg:col-span-7">
           <motion.p {...fadeUp(0)} className="label-eyebrow">
             Nail Designer · São Paulo-SP
           </motion.p>
@@ -74,7 +74,7 @@ export default function Hero() {
           initial={reduceMotion ? { opacity: 0 } : { opacity: 0, scale: 0.96, y: 24 }}
           animate={{ opacity: 1, scale: 1, y: 0 }}
           transition={{ duration: 0.8, delay: 0.2, ease: [0.22, 1, 0.36, 1] }}
-          className="lg:col-span-5"
+          className="order-1 lg:order-2 lg:col-span-5"
         >
           <div className="relative">
             <div
