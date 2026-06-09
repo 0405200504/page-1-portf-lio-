@@ -54,8 +54,8 @@ export default function Hero() {
           >
             <a
               href="#" data-lume-agendar
-              target="_blank"
-              rel="noopener noreferrer"
+              
+              
               className="flex min-h-[48px] w-full items-center justify-center rounded-full bg-wine px-7 py-3.5 text-base font-medium text-cream transition-opacity hover:opacity-90 sm:w-auto"
             >
               Agendar meu horário

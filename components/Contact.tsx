@@ -34,8 +34,8 @@ export default function Contact() {
 
             <a
               href="#" data-lume-agendar
-              target="_blank"
-              rel="noopener noreferrer"
+              
+              
               className="mt-8 inline-flex min-h-[48px] w-full items-center justify-center gap-2.5 rounded-full bg-cream px-7 py-4 text-base font-semibold text-wine transition-opacity hover:opacity-90 sm:w-auto"
             >
               <WhatsAppIcon className="h-5 w-5" />

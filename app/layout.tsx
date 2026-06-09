@@ -1,5 +1,6 @@
 import type { Metadata, Viewport } from "next";
 import { Playfair_Display, Inter } from "next/font/google";
+import Script from "next/script";
 import "./globals.css";
 
 const playfair = Playfair_Display({
@@ -41,7 +42,9 @@ export default function RootLayout({
 }) {
   return (
     <html lang="pt-BR" className={`${playfair.variable} ${inter.variable}`}>
-      <body>{children}  <script src="http://localhost:3000/embed.js" data-lume-slug="page-1" defer></script>
+      <body>
+        {children}
+        <Script src="http://localhost:3000/embed.js" data-lume-slug="page-1" strategy="lazyOnload" />
       </body>
     </html>
   );

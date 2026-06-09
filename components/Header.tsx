@@ -58,8 +58,8 @@ export default function Header() {
           ))}
           <a
             href="#" data-lume-agendar
-            target="_blank"
-            rel="noopener noreferrer"
+            
+            
             className="rounded-full bg-wine px-5 py-2.5 text-sm font-medium text-cream transition-opacity hover:opacity-90"
           >
             Agendar
@@ -134,8 +134,8 @@ export default function Header() {
 
               <a
                 href="#" data-lume-agendar
-                target="_blank"
-                rel="noopener noreferrer"
+                
+                
                 onClick={() => setOpen(false)}
                 className="mt-auto flex min-h-[48px] w-full items-center justify-center rounded-full bg-wine px-6 py-3.5 text-base font-medium text-cream"
               >
