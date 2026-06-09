@@ -44,7 +44,7 @@ export default function RootLayout({
     <html lang="pt-BR" className={`${playfair.variable} ${inter.variable}`}>
       <body>
         {children}
-        <Script src="http://localhost:3000/embed.js" data-lume-slug="page-1" strategy="lazyOnload" />
+        <Script src="https://lume.vercel.app/embed.js" data-lume-slug="page-1" strategy="lazyOnload" />
       </body>
     </html>
   );
