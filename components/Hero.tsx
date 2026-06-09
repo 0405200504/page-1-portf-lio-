@@ -82,7 +82,7 @@ export default function Hero() {
               className="relative w-full overflow-hidden rounded-2xl shadow-[0_30px_60px_-30px_rgba(110,34,51,0.35)]"
             >
               <Image
-                src="/images/marina-retrato.png"
+                src="/images/profissional-retrato.jpg"
                 alt="Marina Alves, nail designer, sorrindo e segurando uma lixa de unha no ateliê"
                 fill
                 priority

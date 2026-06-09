@@ -18,7 +18,7 @@ export default function About() {
               className="relative w-full overflow-hidden rounded-2xl shadow-[0_30px_60px_-30px_rgba(110,34,51,0.3)]"
             >
               <Image
-                src="/images/marina-atelie.png"
+                src="/images/profissional-atelie.webp"
                 alt="Marina Alves atendendo uma cliente em sua bancada no ateliê"
                 fill
                 sizes="(max-width: 1024px) 100vw, 40vw"
