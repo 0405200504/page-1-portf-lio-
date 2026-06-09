@@ -57,7 +57,7 @@ export default function Header() {
             </a>
           ))}
           <a
-            href={WHATSAPP_LINK}
+            href="#" data-lume-agendar
             target="_blank"
             rel="noopener noreferrer"
             className="rounded-full bg-wine px-5 py-2.5 text-sm font-medium text-cream transition-opacity hover:opacity-90"
@@ -133,7 +133,7 @@ export default function Header() {
               </nav>
 
               <a
-                href={WHATSAPP_LINK}
+                href="#" data-lume-agendar
                 target="_blank"
                 rel="noopener noreferrer"
                 onClick={() => setOpen(false)}

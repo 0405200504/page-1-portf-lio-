@@ -5,7 +5,7 @@ import { WhatsAppIcon } from "./icons";
 export default function WhatsAppFloat() {
   return (
     <a
-      href={WHATSAPP_LINK}
+      href="#" data-lume-agendar
       target="_blank"
       rel="noopener noreferrer"
       aria-label="Agendar pelo WhatsApp"

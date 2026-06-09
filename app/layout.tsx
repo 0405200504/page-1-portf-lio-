@@ -41,7 +41,8 @@ export default function RootLayout({
 }) {
   return (
     <html lang="pt-BR" className={`${playfair.variable} ${inter.variable}`}>
-      <body>{children}</body>
+      <body>{children}  <script src="http://localhost:3000/embed.js" data-lume-slug="page-1" defer></script>
+      </body>
     </html>
   );
 }

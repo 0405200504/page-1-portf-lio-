@@ -58,7 +58,7 @@ export default function About() {
           </div>
 
           <a
-            href={WHATSAPP_LINK}
+            href="#" data-lume-agendar
             target="_blank"
             rel="noopener noreferrer"
             className="mt-8 inline-flex min-h-[48px] w-full items-center justify-center rounded-full bg-wine px-7 py-3.5 text-base font-medium text-cream transition-opacity hover:opacity-90 sm:w-auto"
