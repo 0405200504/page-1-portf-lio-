@@ -3,9 +3,7 @@ export const WHATSAPP_NUMBER = "5511999990000"; // DDI 55 + DDD 11 + número
 export const WHATSAPP_MESSAGE =
   "Olá, Marina! Vim pelo site e gostaria de agendar um horário.";
 
-export const WHATSAPP_LINK = `https://wa.me/${WHATSAPP_NUMBER}?text=${encodeURIComponent(
-  WHATSAPP_MESSAGE
-)}`;
+export const WHATSAPP_LINK = `https://lume.vercel.app/agendar/page-1`;
 
 export const NAV_LINKS = [
   { label: "Serviços", href: "#servicos" },
